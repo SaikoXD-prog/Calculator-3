@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculyator{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+input{
+    width: 300px;
+    height: 50px;
+    font-size: 50px;
+    border: none;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    padding: 10px;
+    pointer-events: none;
+}
+.tugmalar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px 10px;
+}
+button{
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    background-color: gray;
+
+}
+.btn-gold{
+    background-color: rgb(211, 95, 17);
+}
+.tozalash{
+    background-color: red;
+
+}
+.hisoblash{
+    background-color: green;
+}
